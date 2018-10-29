@@ -1,0 +1,12 @@
+{
+    "id":1,
+    "first_name":"test_first",
+    "last_name":"test_last",
+    "email":"test_email",
+    "gender": null,
+    "phone":"test_phone",
+    "department":"test_department",
+    "jobTitle":"test_jobTitle",
+    "address":"test_address",
+    "city":null
+}

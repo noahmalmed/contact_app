@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="235" id="KGk-i7-Jjw" customClass="ContactDetailTableViewCell" customModule="Contacts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="235"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="234.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yYr-Lx-q4t">
+                        <rect key="frame" x="31" y="26" width="258" height="183"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rnp-HD-8Mv">
+                                <rect key="frame" x="0.0" y="0.0" width="55.5" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.49411764705882355" green="0.5490196078431373" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8p-kh-TLj">
+                                <rect key="frame" x="54.5" y="0.0" width="96.5" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.49411764705882355" green="0.5490196078431373" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZhQ-DX-FMn">
+                                <rect key="frame" x="0.0" y="31" width="64.5" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.49411764705882355" green="0.5490196078431373" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fr-JF-hFO">
+                                <rect key="frame" x="65.5" y="31" width="105.5" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.49411764705882355" green="0.5490196078431373" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iE-jF-uqI">
+                                <rect key="frame" x="0.0" y="62" width="73.5" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.49411764705882355" green="0.5490196078431373" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftb-0m-xZN">
+                                <rect key="frame" x="72.5" y="62" width="114.5" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.49411764705882355" green="0.5490196078431373" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2c-Od-tRR">
+                                <rect key="frame" x="94" y="106" width="70" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.49411764705882355" green="0.5490196078431373" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adress Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zh7-97-nyy">
+                                <rect key="frame" x="0.0" y="125" width="110" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.49411764705882355" green="0.5490196078431373" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXm-Lq-olF">
+                                <rect key="frame" x="0.0" y="156" width="85" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.49411764705882355" green="0.5490196078431373" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Zh7-97-nyy" firstAttribute="leading" secondItem="yYr-Lx-q4t" secondAttribute="leading" id="0Xm-sm-9s3"/>
+                            <constraint firstItem="C8p-kh-TLj" firstAttribute="leading" secondItem="Rnp-HD-8Mv" secondAttribute="trailing" constant="-1" id="41f-pB-t9F"/>
+                            <constraint firstItem="C8p-kh-TLj" firstAttribute="centerY" secondItem="Rnp-HD-8Mv" secondAttribute="centerY" id="494-IU-0hW"/>
+                            <constraint firstItem="5iE-jF-uqI" firstAttribute="top" secondItem="ZhQ-DX-FMn" secondAttribute="bottom" constant="8" id="6pt-jH-WO1"/>
+                            <constraint firstItem="pXm-Lq-olF" firstAttribute="leading" secondItem="yYr-Lx-q4t" secondAttribute="leading" id="8iH-16-plk"/>
+                            <constraint firstItem="Rnp-HD-8Mv" firstAttribute="top" secondItem="yYr-Lx-q4t" secondAttribute="top" id="AHy-eL-v97"/>
+                            <constraint firstItem="ZhQ-DX-FMn" firstAttribute="top" secondItem="Rnp-HD-8Mv" secondAttribute="bottom" constant="8" id="AvR-ow-GGM"/>
+                            <constraint firstItem="ftb-0m-xZN" firstAttribute="leading" secondItem="5iE-jF-uqI" secondAttribute="trailing" constant="-1" id="DtX-rH-jtA"/>
+                            <constraint firstItem="pXm-Lq-olF" firstAttribute="top" secondItem="Zh7-97-nyy" secondAttribute="bottom" constant="8" id="GRO-qm-8NS"/>
+                            <constraint firstItem="8fr-JF-hFO" firstAttribute="centerY" secondItem="ZhQ-DX-FMn" secondAttribute="centerY" id="H17-wD-BIX"/>
+                            <constraint firstAttribute="bottom" secondItem="pXm-Lq-olF" secondAttribute="bottom" constant="4" id="KC0-iL-wxc"/>
+                            <constraint firstItem="Rnp-HD-8Mv" firstAttribute="leading" secondItem="yYr-Lx-q4t" secondAttribute="leading" id="RjQ-nf-FO2"/>
+                            <constraint firstItem="5iE-jF-uqI" firstAttribute="leading" secondItem="yYr-Lx-q4t" secondAttribute="leading" id="U5M-0U-Ovs"/>
+                            <constraint firstItem="ZhQ-DX-FMn" firstAttribute="leading" secondItem="yYr-Lx-q4t" secondAttribute="leading" id="Y82-os-agB"/>
+                            <constraint firstItem="ftb-0m-xZN" firstAttribute="centerY" secondItem="5iE-jF-uqI" secondAttribute="centerY" id="aE4-5G-Fdi"/>
+                            <constraint firstItem="I2c-Od-tRR" firstAttribute="centerX" secondItem="yYr-Lx-q4t" secondAttribute="centerX" id="e2Y-sD-fg0"/>
+                            <constraint firstItem="8fr-JF-hFO" firstAttribute="leading" secondItem="ZhQ-DX-FMn" secondAttribute="trailing" constant="1" id="lGV-xy-xSR"/>
+                            <constraint firstItem="I2c-Od-tRR" firstAttribute="top" secondItem="ftb-0m-xZN" secondAttribute="bottom" constant="21" id="mhc-1o-ctP"/>
+                            <constraint firstItem="Zh7-97-nyy" firstAttribute="top" secondItem="I2c-Od-tRR" secondAttribute="bottom" constant="-4" id="qfX-rG-aF2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="yYr-Lx-q4t" secondAttribute="trailing" constant="15" id="5fN-JM-wif"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="yYr-Lx-q4t" secondAttribute="bottom" constant="15" id="Zh6-ii-0F3"/>
+                    <constraint firstItem="yYr-Lx-q4t" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="15" id="ncP-f6-GQz"/>
+                    <constraint firstItem="yYr-Lx-q4t" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="zUI-on-J98"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.28235294117647058" green="0.32549019607843138" blue="0.33725490196078434" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addressLabel" destination="Zh7-97-nyy" id="zoJ-J6-HSc"/>
+                <outlet property="cityLabel" destination="pXm-Lq-olF" id="Aaq-8s-syS"/>
+                <outlet property="emailLabel" destination="C8p-kh-TLj" id="DTG-Ek-CD4"/>
+                <outlet property="genderLabel" destination="ftb-0m-xZN" id="Bzj-Ja-V3j"/>
+                <outlet property="genderTitle" destination="5iE-jF-uqI" id="yM1-Hg-m0o"/>
+                <outlet property="phoneLabel" destination="8fr-JF-hFO" id="yx5-Di-DDL"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="149.5"/>
+        </tableViewCell>
+    </objects>
+</document>

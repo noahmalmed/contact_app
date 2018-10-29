@@ -7,12 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D46CD91B9F1DCC375FC0C69 /* Pods_ContactsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375A46FACB813540AA62A351 /* Pods_ContactsTests.framework */; };
+		1B95340B2AA5A3D5D0C7995A /* Pods_Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBFBA4AA4AD6E2B24746316 /* Pods_Contacts.framework */; };
 		49329EAA2181EBFC009E6A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EA92181EBFC009E6A89 /* AppDelegate.swift */; };
-		49329EAC2181EBFC009E6A89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EAB2181EBFC009E6A89 /* ViewController.swift */; };
-		49329EAF2181EBFC009E6A89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49329EAD2181EBFC009E6A89 /* Main.storyboard */; };
 		49329EB12181EBFE009E6A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49329EB02181EBFE009E6A89 /* Assets.xcassets */; };
 		49329EB42181EBFE009E6A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49329EB22181EBFE009E6A89 /* LaunchScreen.storyboard */; };
-		49329EBF2181EBFF009E6A89 /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EBE2181EBFF009E6A89 /* ContactsTests.swift */; };
+		49329ECB2181EC7D009E6A89 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EC92181EC7D009E6A89 /* ContactsTableViewController.swift */; };
+		49329ED22181EE0A009E6A89 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329ED12181EE0A009E6A89 /* Contact.swift */; };
+		49329ED62181F1AF009E6A89 /* employeeDirectory.json in Resources */ = {isa = PBXBuildFile; fileRef = 49329ED52181F1AF009E6A89 /* employeeDirectory.json */; };
+		49329ED92181F875009E6A89 /* ContactsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329ED82181F875009E6A89 /* ContactsCoordinator.swift */; };
+		49329EDB2181FC26009E6A89 /* ContactsPageEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EDA2181FC26009E6A89 /* ContactsPageEnum.swift */; };
+		49329EE321820223009E6A89 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EE221820223009E6A89 /* DetailTableViewController.swift */; };
+		49329EE621821A7C009E6A89 /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EE421821A7C009E6A89 /* MasterTableViewCell.swift */; };
+		49329EE721821A7C009E6A89 /* MasterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49329EE521821A7C009E6A89 /* MasterTableViewCell.xib */; };
+		49329EEF218649E1009E6A89 /* default_female.png in Resources */ = {isa = PBXBuildFile; fileRef = 49329EED218649E1009E6A89 /* default_female.png */; };
+		49329EF0218649E1009E6A89 /* default_male.png in Resources */ = {isa = PBXBuildFile; fileRef = 49329EEE218649E1009E6A89 /* default_male.png */; };
+		49329EF721865055009E6A89 /* DetailTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EF521865055009E6A89 /* DetailTitleTableViewCell.swift */; };
+		49329EF821865055009E6A89 /* DetailTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49329EF621865055009E6A89 /* DetailTitleTableViewCell.xib */; };
+		49329EFB2186543D009E6A89 /* WorkDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EF92186543D009E6A89 /* WorkDetailTableViewCell.swift */; };
+		49329EFC2186543D009E6A89 /* WorkDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49329EFA2186543D009E6A89 /* WorkDetailTableViewCell.xib */; };
+		49329EFF21866AFF009E6A89 /* ContactDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EFD21866AFF009E6A89 /* ContactDetailTableViewCell.swift */; };
+		49329F0021866AFF009E6A89 /* ContactDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49329EFE21866AFF009E6A89 /* ContactDetailTableViewCell.xib */; };
+		49329F0221867601009E6A89 /* ContactsCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329F0121867601009E6A89 /* ContactsCoordinatorTests.swift */; };
+		49329F0321867817009E6A89 /* ContactsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329ED82181F875009E6A89 /* ContactsCoordinator.swift */; };
+		49329F042186781C009E6A89 /* ContactsPageEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EDA2181FC26009E6A89 /* ContactsPageEnum.swift */; };
+		49329F0521867820009E6A89 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329ED12181EE0A009E6A89 /* Contact.swift */; };
+		49329F0621867822009E6A89 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EC92181EC7D009E6A89 /* ContactsTableViewController.swift */; };
+		49329F0721867825009E6A89 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EE221820223009E6A89 /* DetailTableViewController.swift */; };
+		49329F082186785E009E6A89 /* MasterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EE421821A7C009E6A89 /* MasterTableViewCell.swift */; };
+		49329F092186785E009E6A89 /* MasterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49329EE521821A7C009E6A89 /* MasterTableViewCell.xib */; };
+		49329F0A2186785E009E6A89 /* DetailTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EF521865055009E6A89 /* DetailTitleTableViewCell.swift */; };
+		49329F0B2186785E009E6A89 /* DetailTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49329EF621865055009E6A89 /* DetailTitleTableViewCell.xib */; };
+		49329F0C2186785E009E6A89 /* WorkDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EF92186543D009E6A89 /* WorkDetailTableViewCell.swift */; };
+		49329F0D2186785E009E6A89 /* WorkDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49329EFA2186543D009E6A89 /* WorkDetailTableViewCell.xib */; };
+		49329F0E2186785E009E6A89 /* ContactDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EFD21866AFF009E6A89 /* ContactDetailTableViewCell.swift */; };
+		49329F0F2186785E009E6A89 /* ContactDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49329EFE21866AFF009E6A89 /* ContactDetailTableViewCell.xib */; };
+		49329F1021867868009E6A89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329EA92181EBFC009E6A89 /* AppDelegate.swift */; };
+		49329F122186B4CB009E6A89 /* ContactTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329F112186B4CB009E6A89 /* ContactTest.swift */; };
+		49329F142186B58A009E6A89 /* full_contact_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 49329F132186B58A009E6A89 /* full_contact_data.json */; };
+		49329F182186B8B9009E6A89 /* contact_missing_optionals.json in Resources */ = {isa = PBXBuildFile; fileRef = 49329F172186B8B9009E6A89 /* contact_missing_optionals.json */; };
+		49329F1A2186B92F009E6A89 /* contact_missing_non_optionals.json in Resources */ = {isa = PBXBuildFile; fileRef = 49329F192186B92E009E6A89 /* contact_missing_non_optionals.json */; };
+		49329F1C21872576009E6A89 /* CellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49329F1B21872576009E6A89 /* CellTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +61,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FBFBA4AA4AD6E2B24746316 /* Pods_Contacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Contacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		375A46FACB813540AA62A351 /* Pods_ContactsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49329EA62181EBFC009E6A89 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49329EA92181EBFC009E6A89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49329EAB2181EBFC009E6A89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		49329EAE2181EBFC009E6A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49329EB02181EBFE009E6A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49329EB32181EBFE009E6A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49329EB52181EBFE009E6A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49329EBA2181EBFF009E6A89 /* ContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49329EBE2181EBFF009E6A89 /* ContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTests.swift; sourceTree = "<group>"; };
 		49329EC02181EBFF009E6A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49329EC92181EC7D009E6A89 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		49329ED12181EE0A009E6A89 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		49329ED52181F1AF009E6A89 /* employeeDirectory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = employeeDirectory.json; sourceTree = "<group>"; };
+		49329ED82181F875009E6A89 /* ContactsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCoordinator.swift; sourceTree = "<group>"; };
+		49329EDA2181FC26009E6A89 /* ContactsPageEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsPageEnum.swift; sourceTree = "<group>"; };
+		49329EE221820223009E6A89 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		49329EE421821A7C009E6A89 /* MasterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewCell.swift; sourceTree = "<group>"; };
+		49329EE521821A7C009E6A89 /* MasterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MasterTableViewCell.xib; sourceTree = "<group>"; };
+		49329EED218649E1009E6A89 /* default_female.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_female.png; sourceTree = "<group>"; };
+		49329EEE218649E1009E6A89 /* default_male.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_male.png; sourceTree = "<group>"; };
+		49329EF521865055009E6A89 /* DetailTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTitleTableViewCell.swift; sourceTree = "<group>"; };
+		49329EF621865055009E6A89 /* DetailTitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTitleTableViewCell.xib; sourceTree = "<group>"; };
+		49329EF92186543D009E6A89 /* WorkDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDetailTableViewCell.swift; sourceTree = "<group>"; };
+		49329EFA2186543D009E6A89 /* WorkDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WorkDetailTableViewCell.xib; sourceTree = "<group>"; };
+		49329EFD21866AFF009E6A89 /* ContactDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailTableViewCell.swift; sourceTree = "<group>"; };
+		49329EFE21866AFF009E6A89 /* ContactDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactDetailTableViewCell.xib; sourceTree = "<group>"; };
+		49329F0121867601009E6A89 /* ContactsCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCoordinatorTests.swift; sourceTree = "<group>"; };
+		49329F112186B4CB009E6A89 /* ContactTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTest.swift; sourceTree = "<group>"; };
+		49329F132186B58A009E6A89 /* full_contact_data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = full_contact_data.json; sourceTree = "<group>"; };
+		49329F172186B8B9009E6A89 /* contact_missing_optionals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = contact_missing_optionals.json; sourceTree = "<group>"; };
+		49329F192186B92E009E6A89 /* contact_missing_non_optionals.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = contact_missing_non_optionals.json; sourceTree = "<group>"; };
+		49329F1B21872576009E6A89 /* CellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTests.swift; sourceTree = "<group>"; };
+		6A6A3B2B5C64502D1752DB83 /* Pods-ContactsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContactsTests/Pods-ContactsTests.release.xcconfig"; sourceTree = "<group>"; };
+		BDC999017661FBDD40986F27 /* Pods-Contacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Contacts/Pods-Contacts.debug.xcconfig"; sourceTree = "<group>"; };
+		C745278D2AA939036F3340A0 /* Pods-ContactsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContactsTests/Pods-ContactsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD26ED21FAD7661781C76151 /* Pods-Contacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Contacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-Contacts/Pods-Contacts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B95340B2AA5A3D5D0C7995A /* Pods_Contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +111,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D46CD91B9F1DCC375FC0C69 /* Pods_ContactsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34D9ABCDF48DFCA7D46947BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FBFBA4AA4AD6E2B24746316 /* Pods_Contacts.framework */,
+				375A46FACB813540AA62A351 /* Pods_ContactsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		49329E9D2181EBFC009E6A89 = {
 			isa = PBXGroup;
 			children = (
+				49329EEC218649B7009E6A89 /* resources */,
 				49329EA82181EBFC009E6A89 /* Contacts */,
 				49329EBD2181EBFF009E6A89 /* ContactsTests */,
 				49329EA72181EBFC009E6A89 /* Products */,
+				C68D861356BEA36FBAEB2AB6 /* Pods */,
+				34D9ABCDF48DFCA7D46947BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +151,11 @@
 		49329EA82181EBFC009E6A89 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				49329EDD218201B3009E6A89 /* viewcontrollers */,
+				49329EDC218201A8009E6A89 /* views */,
+				49329ECF2181EDC6009E6A89 /* model */,
+				49329ED72181F853009E6A89 /* navigation */,
 				49329EA92181EBFC009E6A89 /* AppDelegate.swift */,
-				49329EAB2181EBFC009E6A89 /* ViewController.swift */,
-				49329EAD2181EBFC009E6A89 /* Main.storyboard */,
 				49329EB02181EBFE009E6A89 /* Assets.xcassets */,
 				49329EB22181EBFE009E6A89 /* LaunchScreen.storyboard */,
 				49329EB52181EBFE009E6A89 /* Info.plist */,
@@ -90,10 +166,85 @@
 		49329EBD2181EBFF009E6A89 /* ContactsTests */ = {
 			isa = PBXGroup;
 			children = (
-				49329EBE2181EBFF009E6A89 /* ContactsTests.swift */,
 				49329EC02181EBFF009E6A89 /* Info.plist */,
+				49329F0121867601009E6A89 /* ContactsCoordinatorTests.swift */,
+				49329F112186B4CB009E6A89 /* ContactTest.swift */,
+				49329F1B21872576009E6A89 /* CellTests.swift */,
+				49329F132186B58A009E6A89 /* full_contact_data.json */,
+				49329F172186B8B9009E6A89 /* contact_missing_optionals.json */,
+				49329F192186B92E009E6A89 /* contact_missing_non_optionals.json */,
 			);
 			path = ContactsTests;
+			sourceTree = "<group>";
+		};
+		49329ECF2181EDC6009E6A89 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				49329ED02181EDD3009E6A89 /* contact */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		49329ED02181EDD3009E6A89 /* contact */ = {
+			isa = PBXGroup;
+			children = (
+				49329ED12181EE0A009E6A89 /* Contact.swift */,
+			);
+			path = contact;
+			sourceTree = "<group>";
+		};
+		49329ED72181F853009E6A89 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				49329ED82181F875009E6A89 /* ContactsCoordinator.swift */,
+				49329EDA2181FC26009E6A89 /* ContactsPageEnum.swift */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
+		49329EDC218201A8009E6A89 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				49329EE421821A7C009E6A89 /* MasterTableViewCell.swift */,
+				49329EE521821A7C009E6A89 /* MasterTableViewCell.xib */,
+				49329EF521865055009E6A89 /* DetailTitleTableViewCell.swift */,
+				49329EF621865055009E6A89 /* DetailTitleTableViewCell.xib */,
+				49329EF92186543D009E6A89 /* WorkDetailTableViewCell.swift */,
+				49329EFA2186543D009E6A89 /* WorkDetailTableViewCell.xib */,
+				49329EFD21866AFF009E6A89 /* ContactDetailTableViewCell.swift */,
+				49329EFE21866AFF009E6A89 /* ContactDetailTableViewCell.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		49329EDD218201B3009E6A89 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				49329EC92181EC7D009E6A89 /* ContactsTableViewController.swift */,
+				49329EE221820223009E6A89 /* DetailTableViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		49329EEC218649B7009E6A89 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				49329ED52181F1AF009E6A89 /* employeeDirectory.json */,
+				49329EEE218649E1009E6A89 /* default_male.png */,
+				49329EED218649E1009E6A89 /* default_female.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		C68D861356BEA36FBAEB2AB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDC999017661FBDD40986F27 /* Pods-Contacts.debug.xcconfig */,
+				CD26ED21FAD7661781C76151 /* Pods-Contacts.release.xcconfig */,
+				C745278D2AA939036F3340A0 /* Pods-ContactsTests.debug.xcconfig */,
+				6A6A3B2B5C64502D1752DB83 /* Pods-ContactsTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49329EC32181EBFF009E6A89 /* Build configuration list for PBXNativeTarget "Contacts" */;
 			buildPhases = (
+				F6F0156ED4E76B529BBFF7BC /* [CP] Check Pods Manifest.lock */,
 				49329EA22181EBFC009E6A89 /* Sources */,
 				49329EA32181EBFC009E6A89 /* Frameworks */,
 				49329EA42181EBFC009E6A89 /* Resources */,
@@ -120,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49329EC62181EBFF009E6A89 /* Build configuration list for PBXNativeTarget "ContactsTests" */;
 			buildPhases = (
+				B1C764F68705D04A91ED0EDA /* [CP] Check Pods Manifest.lock */,
 				49329EB62181EBFF009E6A89 /* Sources */,
 				49329EB72181EBFF009E6A89 /* Frameworks */,
 				49329EB82181EBFF009E6A89 /* Resources */,
@@ -177,9 +330,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49329EEF218649E1009E6A89 /* default_female.png in Resources */,
+				49329EF0218649E1009E6A89 /* default_male.png in Resources */,
 				49329EB42181EBFE009E6A89 /* LaunchScreen.storyboard in Resources */,
 				49329EB12181EBFE009E6A89 /* Assets.xcassets in Resources */,
-				49329EAF2181EBFC009E6A89 /* Main.storyboard in Resources */,
+				49329ED62181F1AF009E6A89 /* employeeDirectory.json in Resources */,
+				49329EFC2186543D009E6A89 /* WorkDetailTableViewCell.xib in Resources */,
+				49329EF821865055009E6A89 /* DetailTitleTableViewCell.xib in Resources */,
+				49329F0021866AFF009E6A89 /* ContactDetailTableViewCell.xib in Resources */,
+				49329EE721821A7C009E6A89 /* MasterTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,18 +346,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49329F092186785E009E6A89 /* MasterTableViewCell.xib in Resources */,
+				49329F0F2186785E009E6A89 /* ContactDetailTableViewCell.xib in Resources */,
+				49329F142186B58A009E6A89 /* full_contact_data.json in Resources */,
+				49329F1A2186B92F009E6A89 /* contact_missing_non_optionals.json in Resources */,
+				49329F182186B8B9009E6A89 /* contact_missing_optionals.json in Resources */,
+				49329F0B2186785E009E6A89 /* DetailTitleTableViewCell.xib in Resources */,
+				49329F0D2186785E009E6A89 /* WorkDetailTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B1C764F68705D04A91ED0EDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ContactsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F0156ED4E76B529BBFF7BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Contacts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49329EA22181EBFC009E6A89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49329EAC2181EBFC009E6A89 /* ViewController.swift in Sources */,
+				49329ED22181EE0A009E6A89 /* Contact.swift in Sources */,
+				49329EFB2186543D009E6A89 /* WorkDetailTableViewCell.swift in Sources */,
+				49329ED92181F875009E6A89 /* ContactsCoordinator.swift in Sources */,
+				49329ECB2181EC7D009E6A89 /* ContactsTableViewController.swift in Sources */,
+				49329EE621821A7C009E6A89 /* MasterTableViewCell.swift in Sources */,
+				49329EE321820223009E6A89 /* DetailTableViewController.swift in Sources */,
+				49329EF721865055009E6A89 /* DetailTitleTableViewCell.swift in Sources */,
 				49329EAA2181EBFC009E6A89 /* AppDelegate.swift in Sources */,
+				49329EDB2181FC26009E6A89 /* ContactsPageEnum.swift in Sources */,
+				49329EFF21866AFF009E6A89 /* ContactDetailTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +419,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49329EBF2181EBFF009E6A89 /* ContactsTests.swift in Sources */,
+				49329F1021867868009E6A89 /* AppDelegate.swift in Sources */,
+				49329F0721867825009E6A89 /* DetailTableViewController.swift in Sources */,
+				49329F0C2186785E009E6A89 /* WorkDetailTableViewCell.swift in Sources */,
+				49329F0321867817009E6A89 /* ContactsCoordinator.swift in Sources */,
+				49329F1C21872576009E6A89 /* CellTests.swift in Sources */,
+				49329F082186785E009E6A89 /* MasterTableViewCell.swift in Sources */,
+				49329F0621867822009E6A89 /* ContactsTableViewController.swift in Sources */,
+				49329F122186B4CB009E6A89 /* ContactTest.swift in Sources */,
+				49329F0521867820009E6A89 /* Contact.swift in Sources */,
+				49329F042186781C009E6A89 /* ContactsPageEnum.swift in Sources */,
+				49329F0A2186785E009E6A89 /* DetailTitleTableViewCell.swift in Sources */,
+				49329F0E2186785E009E6A89 /* ContactDetailTableViewCell.swift in Sources */,
+				49329F0221867601009E6A89 /* ContactsCoordinatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +446,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		49329EAD2181EBFC009E6A89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49329EAE2181EBFC009E6A89 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		49329EB22181EBFE009E6A89 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -356,6 +573,7 @@
 		};
 		49329EC42181EBFF009E6A89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC999017661FBDD40986F27 /* Pods-Contacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -373,6 +591,7 @@
 		};
 		49329EC52181EBFF009E6A89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD26ED21FAD7661781C76151 /* Pods-Contacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -390,6 +609,7 @@
 		};
 		49329EC72181EBFF009E6A89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C745278D2AA939036F3340A0 /* Pods-ContactsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -410,6 +630,7 @@
 		};
 		49329EC82181EBFF009E6A89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6A3B2B5C64502D1752DB83 /* Pods-ContactsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
